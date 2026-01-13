@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">TrustWatch</string>
+    <string name="welcome_back">Welcome back, John</string>
+    <string name="notification_bell_icon">Notification Bell</string>
+    
+    <!-- Dashboard -->
+    <string name="protected_title">You are Protected</string>
+    <string name="protected_desc">TrustWatch AI is actively monitoring all channels for threats</string>
+    <string name="scanned_today">Scanned Today</string>
+    <string name="threats_blocked">Threats Blocked</string>
+    <string name="scans_today">Scans Today</string>
+    <string name="protection_score">Protection Score</string>
+    <string name="main_protection_shield_icon">Main Protection Shield</string>
+    <string name="threats_blocked_icon">Threats Blocked Icon</string>
+    <string name="scans_today_icon">Scans Today Icon</string>
+    <string name="protection_score_icon">Protection Score Icon</string>
+
+    <!-- Active Protection -->
+    <string name="active_protection">Active Protection</string>
+    <string name="real_time">Real-Time</string>
+    <string name="monitoring">Monitoring</string>
+    <string name="ai_powered">AI Powered</string>
+    <string name="detection">Detection</string>
+    <string name="encrypted">Encrypted</string>
+    <string name="analysis">Analysis</string>
+    <string name="accuracy_value">99.8%</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="real_time_monitoring_icon">Real-Time Monitoring Icon</string>
+    <string name="ai_powered_detection_icon">AI Powered Detection Icon</string>
+    <string name="encrypted_analysis_icon">Encrypted Analysis Icon</string>
+    <string name="accuracy_icon">Accuracy Icon</string>
+
+    <!-- Recent Activity -->
+    <string name="recent_activity">Recent Activity</string>
+    <string name="view_all">View All</string>
+    <string name="phishing_link_detected">Phishing Link Detected</string>
+    <string name="paypal_scam">PayPal Verification Scam</string>
+    <string name="suspicious_sms">Suspicious SMS</string>
+    <string name="delivery_reschedule">Delivery Reschedule</string>
+    <string name="security_tip">Security Tip</string>
+    <string name="security_tip_desc">Never click on links in unexpected messages...</string>
+    <string name="time_2m_ago">2m ago</string>
+    <string name="time_1h_ago">1h ago</string>
+    <string name="phishing_icon">Phishing Activity Icon</string>
+    <string name="sms_icon">Suspicious SMS Icon</string>
+    <string name="security_tip_icon">Security Tip Icon</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_threats">Threats</string>
+    <string name="nav_insights">Insights</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Auth -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_account">Create Account</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="confirm_password">Confirm your password</string>
+    <string name="full_name">Full Name</string>
+    <string name="sub_title_login">AI Phishing Defense System</string>
+    <string name="sub_title_signup">Start your comprehensive protection today</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_card_surface"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="12dp">
+
+    <!-- Icon Container -->
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_warning"
+        android:padding="12dp"
+        android:background="@drawable/bg_circle_light"
+        android:layout_marginEnd="16dp"/>
+    
+    <!-- Text Content -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="PayPal Verification"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"/>
+            
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+            
+            <TextView
+                android:id="@+id/tvBadge"
+                android:text="Phishing"
+                android:textSize="10sp"
+                android:textColor="#D32F2F"
+                android:background="@drawable/bg_badge_phishing"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="2dp"
+                android:layout_marginEnd="8dp"/>
+                
+            <TextView
+                android:id="@+id/tvDescription"
+                android:text="• Email"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Timestamp & Arrow -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <TextView
+            android:id="@+id/tvTimestamp"
+            android:text="2 mins ago"
+            android:textSize="12sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginEnd="8dp"/>
+            
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_trend_up" 
+            android:rotation="90"
+            android:contentDescription="Arrow Right"/> 
+            <!-- trend_up rotated makes sort of an arrow right -->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ✅ Internet permission (MANDATORY for WebView & API calls) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+    <!-- ✅ REQUIRED to allow http://10.0.2.2 and http://localhost -->
+    android:usesCleartextTraffic="true"
+
+    android:theme="@style/Theme.TripTrackAI">
+
+    <!-- ================= SPLASH SCREEN (LAUNCHER) ================= -->
+    <activity
+        android:name=".SplashActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <!-- ================= AUTH SCREENS ================= -->
+    <activity android:name=".LoginActivity" android:exported="false" />
+    <activity android:name=".SignupActivity" android:exported="false" />
+    <activity android:name=".ForgotPasswordActivity" android:exported="false" />
+    <activity android:name=".OtpVerifyActivity" android:exported="false" />
+    <activity android:name=".ResetPasswordActivity" android:exported="false" />
+
+    <!-- ================= DASHBOARD & CORE ================= -->
+    <activity android:name=".DashboardActivity" android:exported="false" />
+    <activity android:name=".InsightsActivity" android:exported="true" />
+    <activity android:name=".ScanActivity" android:exported="true" />
+    <activity android:name=".ThreatsActivity" android:exported="false" />
+    <activity android:name=".RecentScansActivity" android:exported="false" />
+    <activity android:name=".ScanDetailActivity" android:exported="false" />
+
+    <!-- ================= SCAN TYPES ================= -->
+    <activity android:name=".UrlScanActivity" android:exported="false" />
+    <activity android:name=".SmsListActivity" android:exported="false" />
+    <activity android:name=".EmailListActivity" android:exported="false" />
+    <activity android:name=".MessageAnalysisActivity" android:exported="false" />
+
+    <!-- ================= AI / SECURITY ================= -->
+    <activity android:name=".RealTimeMonitoringActivity" android:exported="false" />
+    <activity android:name=".AiDetectionActivity" android:exported="false" />
+    <activity android:name=".EncryptedAnalysisActivity" android:exported="false" />
+    <activity android:name=".AiAccuracyActivity" android:exported="false" />
+
+    <!-- ================= NOTIFICATIONS ================= -->
+    <activity android:name=".NotificationsActivity" android:exported="false" />
+
+    <!-- ================= ONBOARDING / SUBSCRIPTION ================= -->
+    <activity android:name=".SubscriptionActivity" android:exported="false" />
+    <activity android:name=".PaymentActivity" android:exported="false" />
+    <activity android:name=".PermissionsActivity" android:exported="false" />
+
+    <!-- ================= PROFILE / SETTINGS ================= -->
+    <activity android:name=".ProfileActivity" android:exported="false" />
+    <activity android:name=".EditProfileActivity" android:exported="false" />
+    <activity android:name=".GeneralSettingsActivity" android:exported="false" />
+    <activity android:name=".LanguageActivity" android:exported="false" />
+
+    <!-- ================= OPTIONAL / OLD ================= -->
+    <activity android:name=".MainActivity" android:exported="false" />
+
+</application>
+
+    </manifest>
